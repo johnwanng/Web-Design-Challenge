@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 110%;
+}
+
+
+body{
+    background-color: #EDEDED;
+}
+
+
+.nav-example {
+    background-color: white;
+}
+
+.whitebackground {
+    background-color: white;
+    margin: 10px;
+}
+
+h1 {
+    color: #4AAAA5;
+}
+
+h2 {
+    color: #4AAAA5;
+}
+
+#link  {
+    color: white;
+    background-color: #4AAAA5; 
+} 
+
+p {
+    font-size: 17px;
+    color: #708090;
+}
+
+
+.img {
+    padding: 10px;
+}
+
+#nav-menu.navbar-default .navbar-brand {
+    color: white;
+    background-color: #4AAAA5;
+}
+#nav-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-width: 1px;
+}
+
+
+#nav-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#nav-menu.navbar-default .navbar-nav>li>a:hover,
+#nav-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(222, 222, 222, 1);
+}
+#nav-menu.navbar-default .navbar-nav>.active>a,
+#nav-menu.navbar-default .navbar-nav>.active>a:hover,
+#nav-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#nav-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#nav-menu.navbar-default .navbar-toggle:hover,
+#nav-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#nav-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#nav-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#nav-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Summary: Latitude vs. X</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="nav-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="https://jwhlaforest.github.io/Web_Challenge/index.html">Latitude</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-right">
+					
+					<li>
+						<div class="dropdown show">
+							<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Plots
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="https://jwhlaforest.github.io/Web_Challenge/temperature.html">Latitude vs. Max Temperature</a>
+								<br>
+								<a class="dropdown-item" href="https://jwhlaforest.github.io/Web_Challenge/humidity.html">Latitude vs. Humidity</a>
+								<br>
+								<a class="dropdown-item" href="https://jwhlaforest.github.io/Web_Challenge/cloudiness.html">Latitude vs. Cloudiness</a>
+								<br>
+								<a class="dropdown-item" href="https://jwhlaforest.github.io/Web_Challenge/wind%20speed.html">Latitude vs. Wind Speed</a>
+							</div>
+						</div>
+					</li>
+
+                    <li>
+                        <a href="https://jwhlaforest.github.io/Web_Challenge/comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="https://jwhlaforest.github.io/Web_Challenge/data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>
+                    Summary: Latitude vs. X
+                </h1>
+                <hr>
+                <img src="Resources/assets/images/Fig1.png" align="left" width="400">
+                <p>
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to asseble a dataset on over 500 cities.
+                </p>
+                <p>
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+				<p>
+                    As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h2>
+                    Visualisations
+                </h2>
+                <hr>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/temperature.html">
+					<img src="Resources/assets/images/Fig1.png" align="left" width="130">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/humidity.html">
+					<img src="Resources/assets/images/Fig2.png" align="left" width="130">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/cloudiness.html">
+					<img src="Resources/assets/images/Fig3.png" align="left" width="130">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/wind%20speed.html">
+					<img src="Resources/assets/images/Fig4.png" align="left" width="130">
+				</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

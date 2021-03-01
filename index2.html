@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Summary: Latitude vs. X</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="nav-example">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" id=link class="navbar-brand">Latitudes</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#" class="dropdown-item">Latitude vs. Max Temperature</a>
+                                <a href="#" class="dropdown-item">Latitude vs. Humidity</a>
+                                <a href="#" class="dropdown-item">Latitude vs. Cloudiness</a>
+                                <a href="#" class="dropdown-item">Latitude vs. Wind Speed</a>
+                        </div>
+                    </li>
+                </ul>
+                 <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Data</a>
+                    </li>
+                </ul>
+         
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 whitebackground">
+                <h1>
+                    Summary: Latitude vs. X
+                </h1>
+                <hr>
+                <img src="Resources/assets/images/Fig1.png" align="left" width="400">
+                <p>
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to asseble a dataset on over 500 cities.
+                </p>
+                <p>
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+            <div class="col-md-3 whitebackground">
+                <h2>
+                    Visualisations
+                </h2>
+                <hr>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/temperature.html">
+					<img src="Resources/assets/images/Fig1.png" align="left" width="125">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/humidity.html">
+					<img src="Resources/assets/images/Fig2.png" align="left" width="125">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/cloudiness.html">
+					<img src="Resources/assets/images/Fig3.png" align="left" width="125">
+				</a>
+				<a href="https://jwhlaforest.github.io/Web_Challenge/wind%20speed.html">
+					<img src="Resources/assets/images/Fig4.png" align="left" width="125">
+				</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
