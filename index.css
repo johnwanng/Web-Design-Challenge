@@ -9,6 +9,19 @@ body{
 }
 
 
+@media (max-width: 750px) {
+  .navbar{
+    background-color: #4AAAA5;
+  }
+
+  body { background-color :white;}  
+
+  .dropdown { background-color: #EDEDED;}
+  .navbar-nav { background-color: white}
+}
+
+
+
 .nav-example {
     background-color: white;
 }
