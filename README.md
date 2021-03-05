@@ -19,4 +19,4 @@ HTML, CSS, Bootstrap
 
 4. Open the index.html file
 
-5. Click on the images and the Navigation Bar on the top of the HTML page will assist the you in navigation through the website.
+5. Click on the images and the Navigation Bar on the top of the HTML page will assist the user in navigating through the website.
